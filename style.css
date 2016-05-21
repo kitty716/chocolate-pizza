@@ -1,0 +1,12 @@
+#cake {
+  display: block;
+  margin: auto;
+  height: 562px;
+}
+#content {
+  width: 860px;
+  margin: auto;
+}
+section {
+  display: inline-block;
+}

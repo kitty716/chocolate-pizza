@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-    display: inline-block;
+  display: inline-block;
 }
 
 #cake {
@@ -33,10 +33,6 @@ body {
   shape-inside:
 }
 
-checkbox {
-  border: 1px black solid;
-  margin: 50;
-}
 
 p {
   font-size: .5em;
@@ -63,5 +59,60 @@ p {
 }
 
 footer {
-  display: i
+display: inline;
+ height: 1020px;
+ width: 978px;
+ margin: 12%;
+}
+
+body {
+ margin: 0;
+ display: inline-block;
+}
+
+#cake {
+ display: block;
+ margin: auto;
+ height: 562px;
+}
+
+#content {
+ width: 860px;
+ margin-left: 55px;
+}
+
+.list {
+ display: block;
+ margin: 10px;
+}
+
+.list1 {
+ display: block;
+ margin: 10px;
+ shape-inside:
+}
+
+
+p {
+ font-size: .5em;
+}
+
+#card {
+ display: block;
+ clear: both;
+ margin: 6%;;
+ width: 88.4%;
+}
+
+#van {
+ display: block;;
+ margin-left: 25%;
+ margin-top: 5%;
+ border: solid black 3px;
+ clear: both;
+}
+
+#smallLogo {
+ display: block;
+ border: solid black 3px;
 }

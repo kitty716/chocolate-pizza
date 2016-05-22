@@ -1,68 +1,61 @@
+
+#wrap {
+ height: 1061px;
+ width: 980px;
+}
+
 #container {
-  height: 1020px;
-  width: 978px;
-  margin: 12%;
-}
-
-body {
-  margin: 0;
-  display: inline-block;
-}
-
-#cake {
-  display: block;
-  margin: auto;
-  height: 562px;
-}
-
-#content {
-  width: 860px;
-  margin-left: 55px;
-}
-
-
-.list {
-  display: block;
-  margin: 10px;
-}
-
-
-.list1 {
-  display: block;
-  margin: 10px;
-  shape-inside:
-}
-
-
-p {
-  font-size: .5em;
-}
-
-#card {
-  display: block;
-  clear: both;
-  margin: 6%;;
-  width: 88.4%;
-}
-
-#van {
-  display: block;;
-  margin-left: 25%;
-  margin-top: 5%;
-  border: solid black 3px;
-  clear: both;
-}
-
-#smallLogo {
-  display: block;
-  border: solid black 3px;
-}
-
-footer {
-display: inline;
  height: 1020px;
  width: 978px;
- margin: 12%;
+ margin: 12em
+;
+}
+
+#top {
+ /*margin-left: 30.5em;*/
+ display: inline-block;
+ float: right;
+ margin-top: -3em;
+}
+
+#ilogo {
+ margin-bottom: -5px;
+ display: inline-block;
+}
+
+header {
+ margin-left: 2em;
+ margin-top: 2em;
+ display: inline-block;
+}
+
+h1 {
+ margin-left: 1em;
+ display: inline-block;
+}
+
+#blurb {
+ margin-top: -2em;
+ margin-left: 3em;
+ font-size: .5em;
+ font-weight: 100;
+}
+
+#print {
+ padding-left: 24.5em;
+}
+
+span {
+ font-size: 3em;
+ font-family: cursive;
+ padding: .5em;
+}
+
+#desc {
+ margin-left: 3.5em;
+ margin-right: 30em;
+ font-size: .2em;
+ margin-top: 0;
 }
 
 body {
@@ -73,18 +66,20 @@ body {
 #cake {
  display: block;
  margin: auto;
- height: 562px;
+ width: 39em;
 }
 
 #content {
- width: 860px;
- margin-left: 55px;
+ width: 39em;
+ margin-left: 3em;
 }
+
 
 .list {
  display: block;
  margin: 10px;
 }
+
 
 .list1 {
  display: block;
@@ -100,14 +95,14 @@ p {
 #card {
  display: block;
  clear: both;
- margin: 6%;;
- width: 88.4%;
+ margin: 2.5em;
+ width: 39em;
 }
 
 #van {
- display: block;;
- margin-left: 25%;
- margin-top: 5%;
+ display: block;
+ margin-left: 3em;
+ margin-top: 3em;
  border: solid black 3px;
  clear: both;
 }
@@ -115,4 +110,11 @@ p {
 #smallLogo {
  display: block;
  border: solid black 3px;
+}
+
+footer {
+display: inline;
+height: 1020px;
+width: 978px;
+margin: 12%;
 }

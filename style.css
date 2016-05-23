@@ -1,120 +1,132 @@
-
 #wrap {
- height: 1061px;
- width: 980px;
+  width: 100%;
+  height: 100%;
 }
 
-#container {
- height: 1020px;
- width: 978px;
- margin: 12em
-;
-}
 
 #top {
- /*margin-left: 30.5em;*/
- display: inline-block;
- float: right;
- margin-top: -3em;
+display: inline-block;
+float: right;
+margin-right: 6%;
+margin-top: 10%;
+
 }
 
 #ilogo {
- margin-bottom: -5px;
- display: inline-block;
+margin-bottom: -5px;
+display: inline-block;
 }
 
 header {
- margin-left: 2em;
- margin-top: 2em;
- display: inline-block;
+margin-left: 5%;
+margin-top: 2%;
+display: inline-block;
+/*padding-bottom: 9%;*/
 }
 
 h1 {
- margin-left: 1em;
- display: inline-block;
+margin-left: 5%;
+/*display: inline-block;*/
 }
 
 #blurb {
- margin-top: -2em;
- margin-left: 3em;
- font-size: .5em;
- font-weight: 100;
+margin-left: 5%;
+margin-top: -3%;
+font-size:
+font-weight: 100;
 }
 
 #print {
- padding-left: 24.5em;
+float: right;
+margin-right: 5%;
 }
 
 span {
- font-size: 3em;
- font-family: cursive;
- padding: .5em;
+font-size:
+font-family: cursive;
+padding:
 }
 
 #desc {
- margin-left: 3.5em;
- margin-right: 30em;
- font-size: .2em;
- margin-top: 0;
+margin-left: 12%;
+margin-top: 0%;
+width: 100%;
 }
 
 body {
- margin: 0;
- display: inline-block;
+margin: auto;;
+display: inline-block;
+height: 900px;
+width: 1000px;
 }
 
 #cake {
- display: block;
- margin: auto;
- width: 39em;
+display: block;
+margin: auto;
+width:
 }
 
 #content {
- width: 39em;
- margin-left: 3em;
+margin: 5%;
 }
 
 
 .list {
- display: block;
- margin: 10px;
+display: block;
+margin: 10px;
 }
 
 
 .list1 {
- display: block;
- margin: 10px;
- shape-inside:
+display: block;
+margin: 10px;
+shape-inside:
 }
 
 
 p {
- font-size: .5em;
+font-size:
 }
 
 #card {
- display: block;
- clear: both;
- margin: 2.5em;
- width: 39em;
+margin-left: 5%;
 }
 
 #van {
- display: block;
- margin-left: 3em;
- margin-top: 3em;
- border: solid black 3px;
- clear: both;
+display: inline-block;;
+margin-top:
+padding:
+clear: both;
+float: left;
+margin-left: 4%;
+}
+
+#footp {
+display: inline-block;
+width: 63%;
+margin-top:
 }
 
 #smallLogo {
- display: block;
- border: solid black 3px;
+display: inline-block;
+margin-left: 46%;
+padding:1%;
 }
 
-footer {
-display: inline;
-height: 1020px;
-width: 978px;
-margin: 12%;
+h4 {
+display: inline-block;
+margin-left: 5%;
+}
+
+button {
+position: relative;
+display: inline-block;
+background-color: #996600  ;
+margin-left: 6%;
+padding: 2%;
+}
+
+
+.footer-text {
+text-align: center;
 }

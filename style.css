@@ -1,100 +1,74 @@
-/*
-.wrap {
-  width: 100%;
-  height: 100%;
-}*/
-
-
 .top {
 display: inline-block;
 float: right;
 margin-right: 6%;
 margin-top: 10%;
-
 }
-
 #ilogo {
 margin-bottom: -5px;
 display: inline-block;
 }
-
 header {
 margin-left: 5%;
 margin-top: 2%;
 display: inline-block;
-/*padding-bottom: 9%;*/
 }
-
 h1 {
 margin-left: 5%;
-/*display: inline-block;*/
 }
-
 #blurb {
 margin-left: 5%;
 margin-top: -3%;
 font-size:
 font-weight: 100;
 }
-
 #print {
 float: right;
 margin-right: 5%;
 }
-
 span {
 font-size:
 font-family: cursive;
 padding:
 }
-
 #desc {
 margin-left: 12%;
 margin-top: 0%;
 width: 100%;
 }
-
 body {
 margin: auto;;
 display: inline-block;
 height: 900px;
 width: 1000px;
 }
-
 #cake {
 display: block;
 margin: auto;
 }
-
 article {
 margin: 5%;
 }
-
+ul {
+  columns:2;
+  list-style-type: none;
+  padding:20px 10px 20px 50px;
+  /*margin-left: 10%;*/
+}
 .list {
-font-family: "Comic Sans MS", sans-serif;
-font-size: 14px;
-padding: 20px;
-margin-left: 10%;
-column-count: 2;
-
+  margin-left: 10%;
+  width:80%;
+  background-image: url('lab-assets/list-bg.png');
+  box-shadow: 0px 8px 5px #cccccc;
+  margin-bottom:50px;
 }
-
+/*not working */
 .corssout {
-text-decoration: line-through; /*not working */
+text-decoration: line-through;
 }
-
 p {
 font-size:
 }
-
-#card {
-/*margin-left: 5%;*/
-position: absolute;
-left: 3%;
-top: 160%;
-z-index: -1;
-}
-
 #van {
 display: inline-block;;
 margin-top:
@@ -103,24 +77,20 @@ clear: both;
 float: left;
 margin-left: 4%;
 }
-
 #footp {
 display: inline-block;
 width: 63%;
 margin-top:
 }
-
 #smallLogo {
 display: inline-block;
 margin-left: 36%;
 padding:1%;
 }
-
 h4 {
 display: inline-block;
 margin-left: 5%;
 }
-
 button {
 position: relative;
 display: inline-block;
@@ -128,8 +98,6 @@ background-color: #996600  ;
 margin-left: 6%;
 padding: 2%;
 }
-
-
 .footer-text {
 text-align: center;
 }
